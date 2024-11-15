@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+img {
+    width: 50vw;
+    align-items: center;
+
+}
+
+body {
+    background-color: #CED3DC;
+    font-family: 'Montserrat', serif;
+}
+
+ul {
+    list-style: none; /* el estilo de la lista será ninguno */
+}
+
+input, label {
+    display: block; /* cada uno ocupa el espacio que puede */
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+a {
+    color: black; /* color de los links */
+    text-decoration: none;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#data-form { 
+    background-color: #639FAB; 
+    border-radius: 5px; 
+    margin-right: auto; /* Empuja a flavor-form a la derecha */ 
+    width: 45%; 
+}
+
+#flavor-form { 
+    background-color: #4E8098; 
+    border-radius: 5px; 
+    width:45%;
+}
